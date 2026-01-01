@@ -7,8 +7,8 @@ import os
 app = Flask(__name__)
 
 # این دو خط را برای هر زبان تغییر می‌دهی
-LANG = "es"   # ← برای ایتالیا it ، برای فرانسه fr
-ARTIST = "Spain News Today 🇪🇸"
+LANG = "it"   # ← برای ایتالیا it ، برای فرانسه fr
+ARTIST = "Italy News Today 🇮🇹"
 
 @app.route("/tts", methods=["POST"])
 def tts():
@@ -43,4 +43,5 @@ def tts():
 
 @app.route("/")
 def home():
+
     return "TTS Server is running"
