@@ -9,7 +9,7 @@ import tempfile
 app = Flask(__name__)
 
 LANG = "de"
-ARTIST = "Germany News Today 🇩🇪"
+ARTIST = "German_News_Today 🇩🇪"
 
 
 @app.route("/", methods=["GET"])
